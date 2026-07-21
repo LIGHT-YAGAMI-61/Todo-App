@@ -1,16 +1,129 @@
-# React + Vite
+# 📝 Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Todo Application** built using **React.js**, **Tailwind CSS**, **Context API**, and **Framer Motion**. The application helps users efficiently organize and manage daily tasks with features like drag-and-drop, task categorization, priorities, due dates, keyboard shortcuts, and local storage persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Todo App](screenshots/dashboard.png)
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 **https://todo-app-alic.vercel.app**
+
+---
+
+## ✨ Features
+
+- ✅ Create, edit, and delete tasks
+- ✅ Mark tasks as completed
+- ✅ Drag & Drop task reordering
+- ✅ Task Categories
+- ✅ Priority Levels (Low, Medium, High)
+- ✅ Due Dates
+- ✅ Search Tasks
+- ✅ Filter by Status & Category
+- ✅ Command Palette (`Ctrl + K`)
+- ✅ Local Storage Persistence
+- ✅ Responsive Design
+- ✅ Smooth Animations using Framer Motion
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+
+### Libraries
+- Framer Motion
+- @hello-pangea/dnd
+
+### Build Tool
+- Vite
+
+### State Management
+- Context API
+- React Hooks
+
+---
+
+
+## 🚀 Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/LIGHT-YAGAMI-61/Todo-App.git
+```
+
+### Navigate to Project
+
+```bash
+cd Todo-App
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```
+Todo-App/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── hooks/
+│   ├── utils/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🎯 Future Improvements
+
+- User Authentication
+- Cloud Database Integration
+- Dark Mode
+- Notifications & Reminders
+- Recurring Tasks
+- Team Collaboration
+- Export & Import Tasks
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Yadav**
+
+- GitHub: https://github.com/LIGHT-YAGAMI-61
+- LinkedIn: https://www.linkedin.com/in/harsh-yadav-b1b831383
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
